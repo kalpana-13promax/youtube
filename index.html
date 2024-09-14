@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="hover-min.css"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="navbar flex">
+        <div class="grp1">
+            <h1><i class="fa-brands fa-spotify"></i></h1>
+        </div>
+        <div class="grp2">
+            <i class="fa-solid fa-house"></i>
+            <input type="text" name="" id="" placeholder="Search any Song..">
+        </div>
+        <div class="grp3">
+            <button class="btn1">Explore Premium</button>
+            <button class="btn2">Install App</button>
+        </div>
+    </div>
+
+    <!-- main card -->
+
+    <div class="main">
+        <div class="left">
+
+            <p> <i class="fa-solid fa-barcode"></i> Your library <i class="fa-solid fa-plus"></i></p>
+            <div class="library">
+                <div class="firstplaylist">
+                    <span>Create your first playlist</span>
+                    <p class="paragraph">It's easy,we'll help you</p>
+                    <button class="btn">Create playlist</button>
+                </div>
+            </div>
+            <div class="library">
+                <div class="firstplaylist">
+                    <span>Let's find some podcasts to follow</span>
+                    <p class="paragraph">We'll keep you update on new episodes</p>
+                    <button class="btn">Browse podcasts</button>
+                </div>
+            </div>
+            <div class="nav">
+                <a href="#">Legal</a>
+                <a href="#">Safety & Privacy Center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookies</a>
+                <a href="#">About Ads</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Cookies</a>
+            </div>
+            <button class="browser">
+                <i class="fa-solid fa-globe"></i>  English
+            </button>
+        </div>
+        <div class="right">
+            <h2>Discover picks for you</h2>
+            <div class="cardwrapper" id="discover-song">
+
+            </div>
+
+            <h2>India best song</h2>
+            <div class="cardwrapper" id="India-song">
+
+            </div>
+
+            <h2>Popular Musics</h2>
+            <div class="cardwrapper" id="popular-song">
+            </div>
+        </div>
+        </div>
+        <div class="audio-player">
+            <audio src="" id="audio" controls></audio>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
